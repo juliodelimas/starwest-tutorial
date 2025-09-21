@@ -1,0 +1,25 @@
+{
+  "name": "starwest-ecommerce-api",
+  "version": "1.0.0",
+  "description": "REST API for e-commerce with JWT authentication and checkout functionality",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["express", "jwt", "ecommerce", "api", "swagger"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "swagger-ui-express": "^5.0.0",
+    "yamljs": "^0.3.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
